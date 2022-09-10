@@ -541,6 +541,7 @@ module.exports = {
                     if (!('delete' in chat)) chat.delete = true
                     if (!('antiLink' in chat)) chat.antiLink = false 
                     if (!('antiSticker' in chat)) chat.antiSticker = false
+		    if (!('antivirtex' in chat)) chat.antivirtex = false
                     if (!('stiker' in chat)) chat.stiker = false
                     if (!('simi' in chat)) chat.simi = false
                     if (!('mute' in chat)) chat.mute = true 
@@ -567,6 +568,7 @@ module.exports = {
                     viewonce: false,
                     useDocument: false,
                     antiToxic: false,
+		    antivirtex: false,
                     expired: 0,
                 }
                 let settings = db.data.settings[this.user.jid]
