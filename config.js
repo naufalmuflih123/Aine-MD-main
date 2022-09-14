@@ -30,7 +30,7 @@ APIKeys = { // APIKey Here
   'https://api.neoxr.eu.org/': 'yntkts',
   'https://api.zeks.me': 'apikeyaine',
   'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'ZZBk7EBb',
+  'https://melcanz.com': 'elaina',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll',
   'https://x-restapi.herokuapp.com': 'BETA'
 }
