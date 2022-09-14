@@ -2,7 +2,8 @@ let fs = require('fs')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = m => m
 
-handler.all = async function (m, { isBlocked }) {
+handler.all = async function (m, { isBlocked })
+handler.before = async function (m, { user, isBotAdmin, isAdmin }) {
     if (isBlocked) return
 
    let regs = /(ผิดุท้เึางืผิดุท้เึางื)/i
