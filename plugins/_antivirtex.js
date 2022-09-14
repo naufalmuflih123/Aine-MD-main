@@ -38,4 +38,5 @@ handler.all = async function (m, { isBlocked }) {
 
 handler.botAdmin = true
 handler.group = true
+handler.command = /^antivirtex$/i
 module.exports = handler
