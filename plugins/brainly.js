@@ -1,4 +1,4 @@
-let brainly = require("brainly-scraper")
+/*let brainly = require("brainly-scraper")
 let handler = async function (m, { text, usedPrefix, command }) {
 if (!text) return m.reply(`uhm.. soalnya mana?\n\ncontoh:\n${usedPrefix + command} apa itu javascript?`)
 let res = await brainly(text)
@@ -11,7 +11,7 @@ handler.tags = ['internet']
 handler.command = /^brainly$/i
 handler.limit = true
 
-module.exports = handler
+module.exports = handler*/
 
 
 /*const Brainly = require('brainly-scraper-v2')
@@ -54,7 +54,7 @@ handler.limit = true
 
 module.exports = handler*/
 
-/*
+
 const brainly = require('brainly-scraper-v2')
 let handler = async function (m, { text }) {
   if (!text) throw 'Soalnya?'
@@ -67,4 +67,4 @@ handler.tags = ['internet']
 
 handler.command = /^brainly$/i
 
-module.exports = handler*/
+module.exports = handler
