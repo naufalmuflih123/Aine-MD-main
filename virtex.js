@@ -3,3 +3,4 @@ const vipi = "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥�
 handler.exports = { virtex, vipi }
 module.exports = handler
 handler.command = /^vipi$/i
+handler.tags = ['owner']
